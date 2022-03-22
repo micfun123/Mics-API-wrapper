@@ -22,3 +22,10 @@ def wallpapersimage() -> Image:
     image_data.seek(0)
     image = Image.open(image_data)
     return(image)
+
+def moviewallpaperimage() -> Image:
+    response = requests.get('https://micswallpaperapi.herokuapp.com/Film_TV_Wallpaper')
+    image_data = BytesIO(response.content)
+    image_data.seek(0)
+    image = Image.open(image_data)
+    return(image)

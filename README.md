@@ -4,6 +4,6 @@ This is a package to simplify the use of my APIs. The wrapper will make doing al
 
 # API List
 
-https://hotbeverage.herokuapp.com/docs <br>
-https://michaelstextapi.herokuapp.com/docs <br>
-https://micswallpaperapi.herokuapp.com/docs
+https://hotbeverage.herokuapp.com/docs   = Has photos and soon info on hot drinks<br>
+https://michaelstextapi.herokuapp.com/docs  =  Will turn text in the a image with the sytle of a games title font<br>
+https://micswallpaperapi.herokuapp.com/docs  =  A large collection of wall papers 

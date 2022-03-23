@@ -33,12 +33,6 @@ im1 = Image.open(wallpapersimage())
 im1 = im1.save("Test.jpg")
 
 
-from PIL import Image 
-import PIL 
-
-# creating a image object (main image) 
-
-
 ```
 
 

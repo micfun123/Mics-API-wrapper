@@ -14,7 +14,8 @@ setup(
     long_description_content_type='text/markdown',
     packages=find_packages(),
     install_requires=[
-        "Pillow==9.0.1"
+        "Pillow==9.0.1",
+        "requests==2.27.1"
     ]
 )
 

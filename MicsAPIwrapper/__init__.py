@@ -1,2 +1,3 @@
-from .wallpapers import moviewallpaperimage, wallpapersimage, filmimagelink , Wallpapersimagelink
+from .wallpapers import Wallpaper
+
 from .textmaker import MctextMaker , Pokemontextmaker

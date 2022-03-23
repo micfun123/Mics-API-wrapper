@@ -17,29 +17,28 @@ print(imageurl)
 
 imageurl = filmimagelink()
 print(imageurl)
-
-#using images 
-# wallpapersimage , moviewallpaperimage
-#Example on saving the photo. 
-from MicsAPIwrapper import wallpapersimage ,moviewallpaperimage
-
-from PIL import Image 
-import PIL 
-
-# creating a image object (main image) 
-im1 = Image.open(wallpapersimage()) 
-  
-# save a image using extension
-im1 = im1.save("Test.jpg")
-
-#Text 
-# creating a image object (main image) 
-im1 = Image.open(MctextMaker("Cake is a Lie")) 
-  
-# save a image using extension
-im1 = im1.save("Test.jpg")
+```
 
 
+```py
+# Example of how to use the Wallpaper class
+from MicsAPIwrapper import Wallpaper
+
+# Image
+image1 = Wallpaper.movie_wallpaper()
+image1.save("movie_wallpaper.png")
+
+# Json version
+json_movie_wallpaper = Wallpaper.movie_wallpaper(json_data=True)
+print(json_movie_wallpaper)
+
+# Image
+image2 =  Wallpaper.wallpaper()
+image2.save("wallpaper.png")
+
+# Json version
+json_wallpaper = Wallpaper.wallpaper(json_data=True)
+print(json_wallpaper)
 ```
 
 

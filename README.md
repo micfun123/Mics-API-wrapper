@@ -32,6 +32,13 @@ im1 = Image.open(wallpapersimage())
 # save a image using extension
 im1 = im1.save("Test.jpg")
 
+#Text 
+# creating a image object (main image) 
+im1 = Image.open(MctextMaker("Cake is a Lie")) 
+  
+# save a image using extension
+im1 = im1.save("Test.jpg")
+
 
 ```
 

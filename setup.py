@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
  
-VERSION = '0.0.3'
+VERSION = '0.0.4'
 DESCRIPTION = "An API wrapper for both of the APIS I have made. "
 
 setup(
@@ -14,7 +14,7 @@ setup(
     long_description_content_type='text/markdown',
     packages=find_packages(),
     install_requires=[
-        "Pillow"
+        "Pillow==9.0.1"
     ]
 )
 

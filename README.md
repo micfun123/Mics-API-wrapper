@@ -9,7 +9,7 @@ pip install Mics-API-Wrapper
 
 ## Example Usage: 
 ```py
-
+from MicsAPIwrapper import Wallpapersimagelink , filmimagelink
 #Using the json forms
 
 imageurl = Wallpapersimagelink()
@@ -21,6 +21,7 @@ print(imageurl)
 #using images 
 # wallpapersimage , moviewallpaperimage
 #Example on saving the photo. 
+from MicsAPIwrapper import wallpapersimage ,moviewallpaperimage
 
 from PIL import Image 
 import PIL 

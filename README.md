@@ -42,6 +42,26 @@ im1 = Image.open(moviewallpaperimage())
 # save a image using extension
 im1 = im1.save("Test.jpg")
 
+#Using the text makers
+from PIL import Image 
+import PIL 
+
+# creating a image object (main image) 
+im1 = Image.open(MctextMaker(I love this)) 
+  
+# save a image using extension
+im1 = im1.save("Test.jpg")
+
+#Using the text makers
+from PIL import Image 
+import PIL 
+
+# creating a image object (main image) 
+im1 = Image.open(Pokemontextmaker(I love this)) 
+  
+# save a image using extension
+im1 = im1.save("Test.jpg")
+
 ```
 
 

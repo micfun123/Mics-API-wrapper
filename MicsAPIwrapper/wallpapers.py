@@ -1,5 +1,7 @@
-import requests
 from io import BytesIO
+from typing import Union
+
+import requests
 from PIL import Image
 
 urlwallpaperjson = 'https://micswallpaperapi.herokuapp.com/json/wallpaper'
@@ -10,12 +12,6 @@ def Wallpapersimagelink():
     response = response.json()
     return response['img_url']
 
-def filmimagelink():
-    response = requests.get(urlmoviewallpaperjson)
-    response = response.json()
-    return response['img_url']
-
-
 def wallpapersimage() -> Image:
     response = requests.get('https://micswallpaperapi.herokuapp.com/wallpaper')
     image_data = BytesIO(response.content)
@@ -23,15 +19,29 @@ def wallpapersimage() -> Image:
     image = Image.open(image_data)
     return(image)
 
-def moviewallpaperimage() -> Image:
-    response = requests.get('https://micswallpaperapi.herokuapp.com/Film_TV_Wallpaper')
-    image_data = BytesIO(response.content)
-    image_data.seek(0)
-    image = Image.open(image_data)
-    return(image)
+
 
 class Wallpaper():
-    base_json_url = "https://micswallpaperapi.herokuapp.com/json"
+    BASE_URL = "https://micswallpaperapi.herokuapp.com"
 
-    wallpaper_json = f"{base_json_url}/wallpaper"
-    movie_wallpaper = f"{base_json_url}/Film_TV_Wallpaper"
+    @classmethod
+    def movie_wallpaper(cls, json_data = False) -> Union[Image.Image, dict]:
+        if json_data:
+            url = f"{cls.BASE_URL}/json/Film_TV_Wallpaper"
+            response = requests.get(url)
+            result = response.json()
+            
+            return result
+            
+        else:
+            url = f"{cls.BASE_URL}/Film_TV_Wallpaper"
+            response = requests.get(url)
+            image_data = response.content
+
+            image = BytesIO(image_data)
+            image.seek(0)
+
+            result = Image.open(image)
+
+            return result
+        

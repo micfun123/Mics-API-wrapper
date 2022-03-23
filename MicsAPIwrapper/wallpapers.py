@@ -29,3 +29,9 @@ def moviewallpaperimage() -> Image:
     image_data.seek(0)
     image = Image.open(image_data)
     return(image)
+
+class Wallpaper():
+    base_json_url = "https://micswallpaperapi.herokuapp.com/json"
+
+    wallpaper_json = f"{base_json_url}/wallpaper"
+    movie_wallpaper = f"{base_json_url}/Film_TV_Wallpaper"

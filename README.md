@@ -25,20 +25,20 @@ from MicsAPIwrapper import wallpapersimage ,moviewallpaperimage
 
 from PIL import Image 
 import PIL 
-
-# creating a image object (main image) 
-im1 = Image.open(wallpapersimage()) 
-  
 # save a image using extension
-im1 = im1.save("Test.jpg")
+wallpapersimage().save("Test.jpg")
+
+from PIL import Image 
+import PIL 
+# save a image using extension
+moviewallpaperimage().save("Test.jpg")
 
 #Text 
 # creating a image object (main image) 
-im1 = Image.open(MctextMaker("Cake is a Lie")) 
+MctextMaker("Cake is a Lie").save("Test.jpg")
   
-# save a image using extension
-im1 = im1.save("Test.jpg")
-
+#pokemon ones
+Pokemontextmaker("Cake is a Lie").save("Test.jpg")
 
 ```
 

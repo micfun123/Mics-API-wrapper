@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
  
-VERSION = '0.0.1'
+VERSION = '0.0.2'
 DESCRIPTION = "An API wrapper for both of the APIS I have made. "
 
 setup(
@@ -12,7 +12,10 @@ setup(
     description=DESCRIPTION,
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
-    packages=find_packages()
+    packages=find_packages(),
+    install_requires=[
+        "Pillow"
+    ]
 )
 
 # python3 setup.py bdist_wheel

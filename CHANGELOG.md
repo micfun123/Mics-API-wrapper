@@ -1,0 +1,4 @@
+0.0.2 (06/03/2022)
+-------------------
+-Set up requirements.txt
+-Better docs

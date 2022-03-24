@@ -5,12 +5,12 @@ from PIL import Image
 urlwallpaperjson = 'https://micswallpaperapi.herokuapp.com/json/wallpaper'
 urlmoviewallpaperjson = 'https://micswallpaperapi.herokuapp.com/json/Film_TV_Wallpaper'
 
-def Wallpapersimagelink() -> dict:
+def Wallpapersimagelink() -> str:
     response = requests.get(urlwallpaperjson)
     response = response.json()
     return response['img_url']
 
-def filmimagelink() -> dict:
+def filmimagelink() -> str:
     response = requests.get(urlmoviewallpaperjson)
     response = response.json()
     return response['img_url']

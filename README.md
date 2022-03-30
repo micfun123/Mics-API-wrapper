@@ -40,6 +40,18 @@ MctextMaker("Cake is a Lie").save("Test.jpg")
 #pokemon ones
 Pokemontextmaker("Cake is a Lie").save("Test.jpg")
 
+#drinks
+#tea coffee
+
+from MicsAPIwrapper import teaimage, coffeeimage
+
+from PIL import Image 
+import PIL 
+# save a image using extension
+teaimage().save("Test.jpg")
+
+coffeeimage().save("Test.jpg")
+
 ```
 
 

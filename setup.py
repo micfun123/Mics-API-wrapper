@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
  
-VERSION = '0.0.6'
+VERSION = '1.1.6'
 DESCRIPTION = "An API wrapper for both of the APIS I have made. "
 
 setup(

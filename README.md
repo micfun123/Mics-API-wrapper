@@ -40,6 +40,9 @@ MctextMaker("Cake is a Lie").save("Test.jpg")
 #pokemon ones
 Pokemontextmaker("Cake is a Lie").save("Test.jpg")
 
+#theavengerstextmaker
+theavengerstextmaker("Cake is a Lie").save("Test.jpg")
+
 #drinks
 #tea coffee
 

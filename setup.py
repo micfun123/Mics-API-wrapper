@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
  
-VERSION = '1.1.6'
+VERSION = '2.0.0'
 DESCRIPTION = "An API wrapper for both of the APIS I have made. "
 
 setup(
@@ -18,6 +18,6 @@ setup(
     ]
 )
 
-# python3 setup.py bdist_wheel
-# twine upload dist/*
+# python3 
+# 
 # sudo rm -rf ./build ./dist ./*egg-info

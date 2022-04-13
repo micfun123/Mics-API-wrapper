@@ -7,4 +7,4 @@ __version__ = "1.1.6"
 from .wallpapers import moviewallpaperimage, wallpapersimage, filmimagelink , Wallpapersimagelink
 from .textmaker import MctextMaker , Pokemontextmaker , theavengerstextmaker
 from .drinks import teaimage, coffeeimage
-from .other import QRcode, umdad, if_the_could_read
+from .other import QRcode, umdad, if_the_could_read,I_wish

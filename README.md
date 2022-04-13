@@ -68,6 +68,8 @@ I_wish("Cake is a Lie").save("Test.jpg")
 
 trash("https://images-ext-2.discordapp.net/external/XBD-gTDJR8JwlJbdDNsekNPIhoJkYeHiwbFf2iOJOyA/%3Fsize%3D1024/https/cdn.discordapp.com/avatars/481377376475938826/8d0e7151738e8dd25cc6f417a430e669.png").save("Test.jpg")
 
+wanted("https://images-ext-2.discordapp.net/external/XBD-gTDJR8JwlJbdDNsekNPIhoJkYeHiwbFf2iOJOyA/%3Fsize%3D1024/https/cdn.discordapp.com/avatars/481377376475938826/8d0e7151738e8dd25cc6f417a430e669.png").save("Test.jpg")
+
 ```
 
 

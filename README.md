@@ -55,7 +55,7 @@ teaimage().save("Test.jpg")
 
 coffeeimage().save("Test.jpg")
 
-```
+
 #memes
 
 umdad("Cake is a Lie").save("Test.jpg")
@@ -63,6 +63,8 @@ umdad("Cake is a Lie").save("Test.jpg")
 if_the_could_read("Cake is a Lie").save("Test.jpg")
 
 I_wish("Cake is a Lie").save("Test.jpg")
+
+```
 
 
 

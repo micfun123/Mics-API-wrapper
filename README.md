@@ -78,5 +78,5 @@ wanted("https://images-ext-2.discordapp.net/external/XBD-gTDJR8JwlJbdDNsekNPIhoJ
 # API List
 
 https://hotbeverage.herokuapp.com/docs   = Has photos and soon info on hot drinks <br>
-https://michaelstextapi.herokuapp.com/docs  =  Will turn text in the a image with the sytle of a games title font (working on adding to wrapper)<br>
-https://micswallpaperapi.herokuapp.com/docs  =  A large collection of wall papers (Added)
+https://michaelapi.herokuapp.com/docs  =  Will turn text in the a image with the sytle of a games title font (working on adding to wrapper)<br>
+https://micswallpaperapi.herokuapp.com/docs  =  A large collection of wall papers 
